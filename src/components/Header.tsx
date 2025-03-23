@@ -6,13 +6,13 @@ import styles from "./Header.module.css";
 function Header() {
   return (
     <header className={styles.header}>
-        <Image
-          src="/images/icon-white-250.png"
-          alt="s4kr4 logo"
-          width={80}
-          height={80}
-          priority
-        />
+      <Image
+        src="/images/icon-white-250.png"
+        alt="s4kr4 logo"
+        width={80}
+        height={80}
+        priority
+      />
       <h1 className={styles.title}>s4kr4</h1>
       <nav className={styles.nav}>
         <Link href="/" className={styles.navLink}>

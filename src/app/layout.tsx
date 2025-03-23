@@ -21,9 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body
-        className={styles.body}
-      >
+      <body className={styles.body}>
         <Header />
         <main className={styles.main}>{children}</main>
         <Footer />
