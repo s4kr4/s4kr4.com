@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 
-const SocialLinks: React.FC = () => {
+function SocialLinks() {
   return (
     <div className="flex justify-center space-x-8 mb-10">
       <a
@@ -41,6 +41,6 @@ const SocialLinks: React.FC = () => {
       </a>
     </div>
   );
-};
+}
 
 export default SocialLinks;

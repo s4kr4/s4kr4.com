@@ -1,6 +1,6 @@
 import React from "react";
 
-const Profile: React.FC = () => {
+function Profile() {
   return (
     <div className="json-container">
       <pre className="text-white">
@@ -17,6 +17,6 @@ const Profile: React.FC = () => {
       </pre>
     </div>
   );
-};
+}
 
 export default Profile;

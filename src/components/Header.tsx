@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const Header: React.FC = () => {
+function Header() {
   return (
     <header className="flex flex-col items-center py-8 border-b border-gray-800">
       <div className="mb-2">
@@ -34,6 +34,6 @@ const Header: React.FC = () => {
       </nav>
     </header>
   );
-};
+}
 
 export default Header;
