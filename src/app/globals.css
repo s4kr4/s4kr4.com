@@ -35,7 +35,8 @@ body {
   border-collapse: collapse;
 }
 
-.skills-table td, .skills-table th {
+.skills-table td,
+.skills-table th {
   padding: 10px;
   border-bottom: 1px solid #333;
 }

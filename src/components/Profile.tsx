@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
 const Profile: React.FC = () => {
   return (
     <div className="json-container">
       <pre className="text-white">
-{`{
+        {`{
   "nickname": "s4kr4",
   "position": "Web engineer",
   "accounts": [
