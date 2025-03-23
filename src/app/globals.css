@@ -1,6 +1,7 @@
 :root {
   --background: #222222;
   --foreground: #ffffff;
+  --font-family: Inconsolata, "Helvetica Neue", "ヒラギノ角ゴ ProN W3";
 }
 
 a {
