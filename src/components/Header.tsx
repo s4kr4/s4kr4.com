@@ -1,11 +1,12 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import styles from "./Header.module.css";
 
 function Header() {
   return (
-    <header className="flex flex-col items-center py-8 border-b border-gray-800">
-      <div className="mb-2">
+    <header className={styles.header}>
+      <div className={styles.logoContainer}>
         <Image
           src="/images/icon-white-250.png"
           alt="s4kr4 logo"
@@ -14,21 +15,21 @@ function Header() {
           priority
         />
       </div>
-      <h1 className="text-4xl font-bold mb-4">s4kr4</h1>
-      <nav className="flex space-x-2">
-        <Link href="/" className="hover:underline">
+      <h1 className={styles.title}>s4kr4</h1>
+      <nav className={styles.nav}>
+        <Link href="/" className={styles.navLink}>
           Home
         </Link>
-        <span>|</span>
-        <Link href="/about" className="hover:underline">
+        <span className={styles.separator}>|</span>
+        <Link href="/about" className={styles.navLink}>
           About
         </Link>
-        <span>|</span>
-        <Link href="/skills" className="hover:underline">
+        <span className={styles.separator}>|</span>
+        <Link href="/skills" className={styles.navLink}>
           Skills
         </Link>
-        <span>|</span>
-        <Link href="/works" className="hover:underline">
+        <span className={styles.separator}>|</span>
+        <Link href="/works" className={styles.navLink}>
           Works
         </Link>
       </nav>

@@ -1,0 +1,13 @@
+.container {
+  background-color: #1a1a1a;
+  border-radius: 4px;
+  padding: 20px;
+  font-family: monospace;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.preText {
+  color: white;
+}

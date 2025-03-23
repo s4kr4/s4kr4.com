@@ -1,9 +1,10 @@
 import React from "react";
+import styles from "./Profile.module.css";
 
 function Profile() {
   return (
-    <div className="json-container">
-      <pre className="text-white">
+    <div className={styles.container}>
+      <pre className={styles.preText}>
         {`{
   "nickname": "s4kr4",
   "position": "Web engineer",
