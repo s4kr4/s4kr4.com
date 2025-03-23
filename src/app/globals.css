@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --foreground: #ffffff;
 }
 
 @theme inline {
@@ -12,15 +12,39 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.json-container {
+  background-color: #1a1a1a;
+  border-radius: 4px;
+  padding: 20px;
+  font-family: monospace;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.skills-table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.skills-table td, .skills-table th {
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.skills-table tr:last-child td {
+  border-bottom: none;
+}
+
+.skills-table td:first-child {
+  width: 150px;
+  font-weight: bold;
 }
