@@ -3,17 +3,13 @@
   flex-direction: column;
   align-items: center;
   padding: 2rem 0;
-  border-bottom: 1px solid #333;
-}
-
-.logoContainer {
-  margin-bottom: 0.5rem;
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
 .title {
   font-size: 2.25rem;
   font-weight: bold;
-  margin-bottom: 1rem;
 }
 
 .nav {
