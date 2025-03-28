@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import styles from "./page.module.css";
 import WorkItem from "@/app/works/_components/WorkItem";
 
@@ -33,10 +34,15 @@ const workList: Work[] = [
     title: "実況通神",
     imageSrc: "/images/chatter.png",
     description:
-      "『境界線上のホライゾン』というアニメに出てくるチャットツールのUIを真似て作った、Twitterクライアントです。Streaming APIの廃止以降の改修はしていないので、現状は動作しません……。",
+      "『境界線上のホライゾン』というアニメに出てくるチャットツールのUIを真似て作った、Twitterクライアントです。Streaming APIの廃止以降の改修はしていないので、現状は動作しません。",
     source: "https://github.com/s4kr4/CHATTER",
   },
 ];
+
+export const metadata: Metadata = {
+  title: "Works",
+  description: "s4kr4の制作物一覧です。",
+};
 
 export default function Works() {
   return (
