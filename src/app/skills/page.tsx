@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import styles from "./page.module.css";
+import PageTitle from "@/components/PageTitle";
 
 export const metadata: Metadata = {
   title: "Skills",
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
 export default function Skills() {
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Skills</h2>
+      <PageTitle>Skills</PageTitle>
       <table className={styles.table}>
         <tbody>
           <tr>

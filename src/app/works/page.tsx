@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import styles from "./page.module.css";
 import WorkItem from "@/app/works/_components/WorkItem";
+import PageTitle from "@/components/PageTitle";
 
 export type Work = {
   title: string;
@@ -47,8 +48,7 @@ export const metadata: Metadata = {
 export default function Works() {
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Works</h2>
-
+      <PageTitle>Works</PageTitle>
       <div className={styles.content}>
         {workList.map((work, index) => (
           <WorkItem key={index} work={work} />
