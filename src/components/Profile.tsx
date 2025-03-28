@@ -10,8 +10,8 @@ const profileString = `
   "accounts": [
     "GitHub": "@s4kr4",
     "Qiita": "@s4kr4",
-    "Hatena": "@s4kr4",
-    "Twitter": "@s4kr4_"
+    "Zenn": "@s4kr4",
+    "X": "@s4kr4_"
   ]
 }
 `;

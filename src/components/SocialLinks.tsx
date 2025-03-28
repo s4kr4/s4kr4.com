@@ -3,8 +3,7 @@ import styles from "./SocialLinks.module.css";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import {
   faGithub,
-  faQuora,
-  faTwitter,
+  faQuora, faXTwitter
 } from "@fortawesome/free-brands-svg-icons";
 import { faEdit } from "@fortawesome/free-solid-svg-icons";
 
@@ -34,16 +33,16 @@ const sites: Array<Site> = [
   {
     icon: faEdit,
     text: "Blog",
-    url: "http://s4kr4.hatenablog.com/",
+    url: "https://zenn.dev/s4kr4",
     option: "vertical",
-    modifier: "hatenablog-icon",
+    modifier: "zenn-icon",
   },
   {
-    icon: faTwitter,
-    text: "Twitter",
-    url: "https://twitter.com/s4kr4_",
+    icon: faXTwitter,
+    text: "X",
+    url: "https://x.com/s4kr4_",
     option: "vertical",
-    modifier: "twitter-icon",
+    modifier: "x-icon",
   },
 ];
 
