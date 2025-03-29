@@ -5,17 +5,17 @@
   @media (width <= 768px) {
     width: 90%;
   }
+}
 
-  pre {
-    display: inline-block;
-    width: 100%;
-    padding-left: 10px;
-    text-align: left;
-    color: #fff;
-    background: #222;
-    border: #aaa 5px solid;
-    border-radius: 10px;
-    font-size: 1rem;
-    line-height: 1.2rem;
-  }
+.profileText {
+  display: inline-block;
+  width: 100%;
+  padding-left: 10px;
+  text-align: left;
+  color: #fff;
+  background: #222;
+  border: #aaa 5px solid;
+  border-radius: 10px;
+  font-size: 1rem;
+  line-height: 1.2rem;
 }
