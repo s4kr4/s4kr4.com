@@ -14,14 +14,14 @@ const workList: Work[] = [
   {
     title: "s4kr4.com",
     imageSrc: "/images/s4kr4-com.png",
-    description: "本サイトです。Next.jsをベースに、TypeScriptで作成しました。",
+    description: "本サイトです。Next.js+TypeScriptで作成しました。",
     source: "https://github.com/s4kr4/s4kr4.github.io",
   },
   {
     title: "react-input-shortcut",
     imageSrc: "/images/react-input-shortcut.gif",
     description:
-      "入力したキーの組み合わせを表示する、Reactのライブラリです。Webアプリ等のショートカットキーを設定するとき等に使えます。",
+      "入力したキーの組み合わせを表示する、Reactのライブラリです。Webアプリ等のショートカットキー設定画面等での使用を想定しいます。",
     source: "https://github.com/s4kr4/react-input-shortcut",
   },
   {
