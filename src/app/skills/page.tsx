@@ -18,13 +18,13 @@ export default function Skills() {
           </tr>
           <tr>
             <td>言語</td>
-            <td>Java, C#, Ruby, JavaScript, PHP, HTML, CSS, ShellScript</td>
+            <td>JavaScript/TypeScript, HTML/CSS, Java, C#, Ruby, PHP, ShellScript</td>
           </tr>
           <tr>
             <td>フレームワーク</td>
             <td>
-              Spring, CakePHP, Drupal, BEAR.Sunday, Ruby on Rails, React, React
-              Native
+              React, React
+              Native, Vue.js, CakePHP, Drupal, BEAR.Sunday, Ruby on Rails, Spring
             </td>
           </tr>
           <tr>
@@ -32,8 +32,12 @@ export default function Skills() {
             <td>MySQL, PostgreSQL</td>
           </tr>
           <tr>
+            <td>インフラ</td>
+            <td>Google Cloud, AWS, Docker, Vagrant</td>
+          </tr>
+          <tr>
             <td>その他</td>
-            <td>Git, SVN, Vagrant, Docker, Apache, Samba, AWS</td>
+            <td>Git, SVN, Docker, Vagrant, Nginx, Apache</td>
           </tr>
         </tbody>
       </table>
