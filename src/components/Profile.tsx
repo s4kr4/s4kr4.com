@@ -34,7 +34,7 @@ function Profile() {
 
   return (
     <div className={styles.container}>
-      <pre>
+      <pre className={styles.profileText}>
         {displayedText.split("\n").map((item, i) => (
           <span key={i}>
             {item}
