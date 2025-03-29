@@ -3,7 +3,8 @@ import styles from "./SocialLinks.module.css";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import {
   faGithub,
-  faQuora, faXTwitter
+  faQuora,
+  faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEdit } from "@fortawesome/free-solid-svg-icons";
 
