@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import styles from "./page.module.css";
-import PageTitle from "@/components/PageTitle";
+import PageTitle from "@/components/parts/PageTitle";
 import P from "@/components/parts/P";
 
 export const metadata: Metadata = {

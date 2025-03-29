@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import styles from "./page.module.css";
-import PageTitle from "@/components/PageTitle";
+import PageTitle from "@/components/parts/PageTitle";
 
 export const metadata: Metadata = {
   title: "Skills",

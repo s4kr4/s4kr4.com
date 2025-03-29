@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import styles from "./page.module.css";
 import WorkItem from "@/app/works/_components/WorkItem";
-import PageTitle from "@/components/PageTitle";
+import PageTitle from "@/components/parts/PageTitle";
 
 export type Work = {
   title: string;
