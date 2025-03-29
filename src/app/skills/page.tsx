@@ -18,13 +18,15 @@ export default function Skills() {
           </tr>
           <tr>
             <td>言語</td>
-            <td>JavaScript/TypeScript, HTML/CSS, Java, C#, Ruby, PHP, ShellScript</td>
+            <td>
+              JavaScript/TypeScript, HTML/CSS, Java, C#, Ruby, PHP, ShellScript
+            </td>
           </tr>
           <tr>
             <td>フレームワーク</td>
             <td>
-              React, React
-              Native, Vue.js, CakePHP, Drupal, BEAR.Sunday, Ruby on Rails, Spring
+              React, React Native, Vue.js, CakePHP, Drupal, BEAR.Sunday, Ruby on
+              Rails, Spring
             </td>
           </tr>
           <tr>
